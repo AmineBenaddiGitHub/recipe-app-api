@@ -30,8 +30,8 @@ services:
       - POSTGRES_USER=devuser
       - POSTGRES_PASSWORD=devpassword
     ports:
-      - 5434:5434
-    command: -p 5434
+      - 5432:5432
+    command: -p 5432
 
 volumes:
   dev-db-data:
